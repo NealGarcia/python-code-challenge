@@ -35,7 +35,7 @@ print(sum_of_minimums(my_list))
   # should return 26
 ```
 
-So the function should return `26` because the sum of each row's minimus is `1 + 5 + 20 = 26`. 
+So the function should return `26` because the sum of each row's minimums is `1 + 5 + 20 = 26`. 
 
 Note: You will always be given non-empty lists containing positive values. 
 
