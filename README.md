@@ -59,6 +59,6 @@ print(split_strings('abcdef'))
 # should return ['ab', 'cd', 'ef']
 
 ```
-### Hungry for More? 
+## Hungry for More? 
 
 Add Python to your coding languages on Codewars and keep working through more Python [challenges](https://www.codewars.com/kata/search/python?q=&beta=false)! 
