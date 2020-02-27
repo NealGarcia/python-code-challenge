@@ -1,5 +1,6 @@
 # Code Challenge: More Python 🐍
-A collection of level 7 and 6 kyu Python challenges adapted from Codewars 
+
+A collection of level 7 and 6 kyu Python challenges adapted from Codewars Katas.
 
 ## Shortest Word
 
@@ -39,6 +40,25 @@ So the function should return `26` because the sum of each row's minimums is `1 
 
 Note: You will always be given non-empty lists containing positive values. 
 
+## Split Strings
+
+![splits ouch](https://media.giphy.com/media/E5g35ySaiIPOo/giphy.gif)
+
+Given a string, complete the function so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore('_').
+
+For example: 
+```python
+def split_strings(s):
+    # your lovely code goes here!
+    
+
+print(split_strings('abc'))
+# should return ['ab', 'c_']
+
+print(split_strings('abcdef'))
+# should return ['ab', 'cd', 'ef']
+
+```
 ### Hungry for More? 
 
 Add Python to your coding languages on Codewars and keep working through more Python [challenges](https://www.codewars.com/kata/search/python?q=&beta=false)! 
