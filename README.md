@@ -2,6 +2,13 @@
 
 A collection of level 7 and 6 kyu Python challenges adapted from Codewars Katas.
 
+### Instructions: 
+
+1. Clone this directory down to the folder where you keep your coding challenges (no need to fork).
+2. Work through the challenges below. Use pseudocode and comments to think through your approach to solving these algorithms in a systematic way. 
+3. Run `python3 challenges.py` from within this directory to test the output of your code. 🧪
+4. Have fun 😎. 
+
 ## Shortest Word
 
 ![You keep using that word](https://media.giphy.com/media/N7FeGLHjVsDQY/giphy.gif)
