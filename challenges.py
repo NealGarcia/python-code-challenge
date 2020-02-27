@@ -1,16 +1,16 @@
 # Shortest Word
 
 def shortest_word(string): 
-  # your lovely code here!
+    # your lovely code here!
 
-print(shortest_word('My name is Inigo Montoya, you killed my father, prepare to die!'))
-  # should return: 2
+print(shortest_word("I don't think that word means what you think it means"))
+    # should return: 1
   
 
 # Sum of Minimums
 
 def sum_of_minimums(list):
-  # your lovely code goes here!
+    # your lovely code goes here!
 
 my_list = [
     [1,2,3,4,5], # minimum value of row is 1
@@ -19,5 +19,5 @@ my_list = [
     ]
 
 print(sum_of_minimums(my_list))
-  # should return 26
+    # should return 26
   
