@@ -9,10 +9,10 @@ Simple: given a string of words, return the length of the shortest word(s). Stri
 
 ```python
 def shortest_word(string): 
-  # your lovely code here!
+    # your lovely code here!
 
-print(shortest_word('My name is Inigo Montoya, you killed my father, prepare to die!'))
-  # should return: 2
+print(shortest_word("I don't think that word means what you think it means"))
+    # should return: 1
 ```
 ## Sum of Minimums 
 
@@ -23,7 +23,7 @@ Given a 2D list of size `m * n`, your task is to find the sum of the minimum val
 For example: 
 ```python
 def sum_of_minimums(list):
-  # your lovely code goes here!
+    # your lovely code goes here!
 
 my_list = [
     [1,2,3,4,5], # minimum value of row is 1
@@ -32,7 +32,7 @@ my_list = [
     ]
 
 print(sum_of_minimums(my_list))
-  # should return 26
+    # should return 26
 ```
 
 So the function should return `26` because the sum of each row's minimums is `1 + 5 + 20 = 26`. 
