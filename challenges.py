@@ -1,14 +1,20 @@
-# Shortest Word
+# Shortest Word ---
 
 def shortest_word(s): 
     # your lovely code here!
-    return 'hello world'
+    converted_string = list(s.split(" ")) # split string into array of words
+    shortest_word = converted_string[0] # shortest word is assigned to the first index in convertedstring array
+
+    for i in converted_string: # loop through every word in convertedstring array
+        if len(i) < len(shortest_word): # if the length of current word is less than the first word, assign it to new shortest word
+            shortest_word = i
+        return len(shortest_word)
 
 print(shortest_word("I don't think that word means what you think it means"))
 # should return: 1
   
 
-# Sum of Minimums
+# Sum of Minimums ---
 
 def sum_of_minimums(list):
     # your lovely code goes here!
