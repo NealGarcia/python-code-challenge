@@ -17,8 +17,7 @@ print(shortest_word("I don't think that word means what you think it means"))
 # Sum of Minimums ---
 
 def sum_of_minimums(list):
-    # your lovely code goes here!
-    return 'hello world'
+    return sum(map(min, list)) # return the sum of a map with the minimum output for numbers
 
 my_list = [
     [1,2,3,4,5], # minimum value of row is 1
@@ -33,7 +32,7 @@ print(sum_of_minimums(my_list))
 
 def split_strings(s):
     # your lovely code goes here
-    return 'hello world'
+    return ''
 
 print(split_strings('abc'))
 # should return ['ab', 'c_']
